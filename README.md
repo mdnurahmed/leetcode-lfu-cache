@@ -15,10 +15,11 @@ When a key is first inserted into the cache, its use counter is set to 1 (due to
 
 ### Example 1:
 
-Input
+#### Input
 ["LFUCache", "put", "put", "get", "put", "get", "get", "put", "get", "get", "get"]
 [[2], [1, 1], [2, 2], [1], [3, 3], [2], [3], [4, 4], [1], [3], [4]]
-Output
+
+#### Output
 [null, null, null, 1, null, -1, 3, null, -1, 3, 4]
 
 ### Explanation
